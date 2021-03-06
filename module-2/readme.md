@@ -23,7 +23,7 @@ docker build -t <my-xapp-docker-image-name>:<tag> .
 
 NOTE: You might need to use `sudo docker...` depending on the way your Docker is configured.
 
-## Deploying the development environment
+## Preparing the values.yaml for the Helm chart
 
 While in the phase of developing an xApp, we have created a development environment which a developer can use for quick development and testing.
 The development environment is deployed using Helm. 
@@ -50,6 +50,8 @@ image:
   tag: ""
 ```
 
+## Deploying the development environment
+
 Once this is done, you can deploy the development environment (replace <dev-env-name> to whichever name you want to give this development environment):
 ```shell
 helm install <dev-env-name> . --set developerMode.enabled=true --set developerMode.hostPath=/path/to/xapp-framework-package/xapp_core/
@@ -57,11 +59,15 @@ helm install <dev-env-name> . --set developerMode.enabled=true --set developerMo
 
 NOTE: The path to the xapp_core folder is an absolute path!
 
+## Accessing the development environment
+
 You can now access the development environment by going into the container in Kubernetes using:
 
 ```shell
 kubectl exec -it <xapp-core-pod-name> -- /bin/bash
 ```
+
+## Start the xApp in the development environment
 
 Finally you can start your xApp by issuing the following command inside the container:
 
