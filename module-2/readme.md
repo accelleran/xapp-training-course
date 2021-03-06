@@ -45,12 +45,17 @@ global:
 image:
   # THIS SHOULD BE REPLACE WITH <my-xapp-docker-image-name> WE USED DURING DOCKER IMAGE BUILD
   repository: <my-xapp-docker-image-name> 
+  ...
+  # REPLACE THIS WITH TH EVERSION TAG USED DURING DOCKER IMAGE BUILD
+  tag: ""
 ```
 
-Once this is done, you can deploy the development environment (replace <dev-env-name> to whichever name you want ot give this development environment; replace <tag> with the tag used during Docker image build ):
+Once this is done, you can deploy the development environment (replace <dev-env-name> to whichever name you want to give this development environment):
 ```shell
-helm install <dev-env-name> . --set developerMode.enabled=true --set developerMode.hostPath=/path/to/xapp-framework-package/xapp_core/ --set image.tag=<tag>
+helm install <dev-env-name> . --set developerMode.enabled=true --set developerMode.hostPath=/path/to/xapp-framework-package/xapp_core/
 ```
+
+NOTE: The path to the xapp_core folder is an absolute path!
 
 You can now access the development environment by going into the container in Kubernetes using:
 
