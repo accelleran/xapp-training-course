@@ -74,3 +74,19 @@ Finally you can start your xApp by issuing the following command inside the cont
 ```shell
 python3 xapp_main.py
 ```
+
+# Chapter 3
+
+Edit the processor.py file in the xapp_core to enable Example 1:
+
+```python
+### Example 1: Just logging all the messages received from the dRAX Databus
+logging.info("Received message from dRAX Databus!")
+logging.info("dRAX Databus message: {data}".format(data=data))
+```
+
+Restart the xApp by running the xapp_main.py again:
+
+```shell
+python3 xapp_main.py
+```
