@@ -19,6 +19,8 @@ NOTE: Depending on the bandwidth of the cell:
 - 20 MHz cells have 13 sub-bands
 - 10 MHz cells have 9 sub-bands
 
+You can get these details from the dRAX Dashboard by checking the configuration of the cells. Another way is to us ethe API Gateway and to GET the cells configuration.
+
 ## Trigger the sub-band masking
 
 From Example 5 in the `processor.py`:
