@@ -11,7 +11,7 @@ with settings.lock:
 
 The configuration is stored in the settings variable. This variable has a Lock defined to safeguard the information. Using the Lock we can then read the configruation option.
 
-# Chapter 3:
+# Chapter 3: Using the xApp API to edit the configuration
 
 ## The xApp Configuration JSON Schema
 
