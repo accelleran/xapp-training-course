@@ -13,6 +13,8 @@ The configuration is stored in the settings variable. This variable has a Lock d
 
 # Chapter 3:
 
+## The xApp Configuration JSON Schema
+
 The xApp Configuration JSON Schema is as follows:
 
 ```json
@@ -24,20 +26,20 @@ The xApp Configuration JSON Schema is as follows:
     },
     "description": "xApp Description...",
     "last_modified": "AUTO-GENERATED", # DON’T EDIT
-    'config': {
-        ‘'API_GATEWAY_URL': ‘10.20.20.20’, # AUTO-GENERATED, DON’T EDIT
-        ‘'API_GATEWAY_PORT': ‘31315’, # AUTO-GENERATED, DON’T EDIT
-        'REDIS_URL': '10.20.20.20', # AUTO-GENERATED, DON’T EDIT
-        'REDIS_PORT': 32000, # AUTO-GENERATED, DON’T EDIT
-        ‘DRAX_COMMAND_TOPIC': 'Topic_OPENRAN_COMMANDS.OranController', # AUTO-GENERATED, DON’T EDIT
-        ‘NATS_URL’: 'nats://10.20.20.20:31000', # AUTO-GENERATED, DON’T EDIT
-        'LOG_LEVEL': 20,  
-        'KAFKA_URL': '10.20.20.20', # AUTO-GENERATED, DON’T EDIT
-        'KAFKA_PORT': '31090', # AUTO-GENERATED, DON’T EDIT
-        'kafka_producer_topic': 'xapp_specific_topic',
-        'KAFKA_LISTEN_TOPIC': 'test2, Topic_State',
-        'periodic_publish': True, 
-        'publish_interval': 1  # in seconds
+    "config": {
+        "API_GATEWAY_URL": "10.20.20.20", # AUTO-GENERATED, DON’T EDIT
+        "API_GATEWAY_PORT": "31315", # AUTO-GENERATED, DON’T EDIT
+        "REDIS_URL": "10.20.20.20", # AUTO-GENERATED, DON’T EDIT
+        "REDIS_PORT": 32000, # AUTO-GENERATED, DON’T EDIT
+        "DRAX_COMMAND_TOPIC": "Topic_OPENRAN_COMMANDS.OranController", # AUTO-GENERATED, DON’T EDIT
+        "NATS_URL": "nats://10.20.20.20:31000", # AUTO-GENERATED, DON’T EDIT
+        "LOG_LEVEL": 20,  
+        "KAFKA_URL": "10.20.20.20", # AUTO-GENERATED, DON’T EDIT
+        "KAFKA_PORT": "31090", # AUTO-GENERATED, DON’T EDIT
+        "kafka_producer_topic": "xapp_specific_topic",
+        "KAFKA_LISTEN_TOPIC": "test2, Topic_State",
+        "periodic_publish": True, 
+        "publish_interval": 1  # in seconds
     },
     "jsonSchemaOptions": {},
     "uiSchemaOptions": {}
