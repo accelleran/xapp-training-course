@@ -1,4 +1,6 @@
-# Chapter 1: Packaging the xApp
+# Module 7: Productizing an xApp
+
+# Chapter 7.1: Packaging the xApp
 
 ## Build the xApp Core Docker image
 
@@ -42,7 +44,7 @@ We can package th eHelm chart into a .tgz file using:
 helm package /path/to/xapp-framework-package/helm_chart/xapp/
 ```
 
-# Chapter 2: Deploying a production xApp
+# Chapter 7.2: Deploying a production xApp
 
 We can either use the dRAX Dashboard and the user-friendly GUI interface.
 
@@ -66,7 +68,7 @@ The parameters are:
 - If a remote helm repository is used, then example-repo-name is the generic name used to save the repository URL in helm
 - Finally, @/home/dimitris/Desktop/5g_logs/values.yaml specifies where the optional values.yaml file is located
 
-# Deleting an xApp
+## Deleting an xApp
 
 This can also be done through the dRAX Dashboard by clicking the *Uninstall* button in the xApps tab.
 

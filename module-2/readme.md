@@ -1,6 +1,7 @@
-# Chapter 1
-## Clone the Accelleran xApp Framework Package repository
+# Module 2: Developing your first xApp
 
+# Chapter 2.1: Setting the environment
+## Clone the Accelleran xApp Framework Package repository
 The official xApp Framework Package is located in a public repository located here: 
 [https://github.com/accelleran/xapp-framework-package](https://github.com/accelleran/xapp-framework-package)
 
@@ -10,9 +11,8 @@ You can clone it using th following command:
 git clone https://github.com/accelleran/xapp-framework-package
 ```
 
----
 
-# Chapter 2
+# Chapter 2.2: Building and deploying an xApp
 ## Building the xApp Core Docker image
 We need to first create the Docker image for the xApp core. This can be done using the following commands (assuming you are in the xapp-framework-package folder):
 
@@ -75,7 +75,7 @@ Finally you can start your xApp by issuing the following command inside the cont
 python3 xapp_main.py
 ```
 
-# Chapter 3
+# Chapter 2.3: Development workflow
 
 Edit the processor.py file in the xapp_core to enable Example 1:
 

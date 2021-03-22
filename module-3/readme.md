@@ -1,8 +1,9 @@
-# Chapter 1
+# Module 3: dRAX RIC Databus
+# Chapter 3.1: Overview of the dRAX RIC Databus
 
 The xApp Developer Guide can be found here: [https://cutt.ly/drax-xapp-dev-guide](https://cutt.ly/drax-xapp-dev-guide)
 
-# Chapter 2
+# Chapter 3.2: Parsing and publishing data
 
 ## See data from the dRAX RIC Databus
 

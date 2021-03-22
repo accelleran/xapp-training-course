@@ -1,4 +1,6 @@
-# Chapter 1: Handover command
+# Module 5: dRAX COmmands
+
+# Chapter 5.1: Handover command
 
 ## Find out ueDraxId
 
@@ -36,7 +38,7 @@ NOTE: Make sure to wrap up the handover command with a control mechanism in the 
 
 You can check the details of the handover command, by looking at the `action_taker.py`.
 
-# Chapter 2: Sub-band masking command
+# Chapter 5.2: Sub-band masking command
 
 ## Find our Cell Instance ID
 

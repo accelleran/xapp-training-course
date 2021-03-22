@@ -1,4 +1,6 @@
-# Chapter 2: Adding and editing a configuration option 
+# Module 6: xApp Configuration
+
+# Chapter 6.2: Adding and editing a configuration option 
 
 We change the deployment time configruation options through Helm. We can then edit the configuration options via the dRAX Dashboard. 
 
@@ -11,10 +13,9 @@ with settings.lock:
 
 The configuration is stored in the settings variable. This variable has a Lock defined to safeguard the information. Using the Lock we can then read the configruation option.
 
-# Chapter 3: Using the xApp API to edit the configuration
+# Chapter 6.3: Using the xApp API to edit the configuration
 
 ## The xApp Configuration JSON Schema
-
 The xApp Configuration JSON Schema is as follows:
 
 ```

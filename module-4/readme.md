@@ -1,4 +1,6 @@
-# Chapter 1
+# Module 4: dRAX API Gateway
+
+# Chapter 4.1: Overview of the dRAX API Gateway
 
 The Swagger page of the dRAX API Gateway can be found on the following URL:
 
@@ -6,7 +8,7 @@ The Swagger page of the dRAX API Gateway can be found on the following URL:
 <kube-ip>:31315/api/v1/docs/
 ```
 
-# Chapter 2
+# Chapter 4.2: Using the dRAX API Gateway
 
 ## Cell configuration via the API Gateway
 
