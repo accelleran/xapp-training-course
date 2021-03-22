@@ -17,7 +17,7 @@ The configuration is stored in the settings variable. This variable has a Lock d
 
 The xApp Configuration JSON Schema is as follows:
 
-```json
+```
 {
     "metadata": {
         "name": "AUTO-GENERATED", # DON’T EDIT
