@@ -13,15 +13,17 @@ git clone https://github.com/accelleran/xapp-framework-package
 
 
 # Chapter 2.2: Building and deploying an xApp
-## Building the xApp Core Docker image
+## Building the Development xApp Core Docker image
 We need to first create the Docker image for the xApp core. This can be done using the following commands (assuming you are in the xapp-framework-package folder):
 
 ```shell
 cd xapp_core
-docker build -t <my-xapp-docker-image-name>:<tag> .
+docker build --target dev --tag <my-xapp-docker-image-name>:<tag> .
 ```
 
-NOTE: You might need to use `sudo docker...` depending on the way your Docker is configured.
+NOTE 1: You might need to use `sudo docker...` depending on the way your Docker is configured.
+
+NOTE 2: We are using the "dev" target in the Dockerfile, which enables Developer options in the xApp docker image, which we use in these exercises. 
 
 ## Preparing the values.yaml for the Helm chart
 
