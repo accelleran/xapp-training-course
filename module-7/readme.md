@@ -2,12 +2,12 @@
 
 # Chapter 7.1: Packaging the xApp
 
-## Build the xApp Core Docker image
+## Build the Production xApp Core Docker image
 
-First we need to build the xApp core Docker image. We can use the following docker command:
+First we need to build the xApp core Docker image, now using the "prod" target. We can use the following docker command:
 
 ```shell
-docker build -t <image-name>:<image-version> /path/to/xapp-framework-package/xapp_core/
+docker build --target prod --tag <image-name>:<image-version> /path/to/xapp-framework-package/xapp_core/
 ```
 
 ### Saving the xApp Core Docker image
